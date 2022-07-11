@@ -11,7 +11,7 @@
     --people-background-color: #E5E5E5;
 
 }
-
+/* --- */
 html {
     box-sizing: border-box;
 }
@@ -104,6 +104,7 @@ ul {
 
 .header-ul {
     display: flex;
+    border: none;
 }
 
 .header-ul .item+.item {
