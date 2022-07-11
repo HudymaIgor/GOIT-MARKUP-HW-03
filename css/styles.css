@@ -104,7 +104,7 @@ ul {
 
 .header-ul {
     display: flex;
-    border: none;
+    
 }
 
 .header-ul .item+.item {
@@ -355,17 +355,14 @@ ul {
 }
 
 /* portfolio */
-/* battons */
 
-/* .container .porfolio-btn{
-align-items: center;
-} */
 .porfolio-btn {
     display: flex;
     margin: auto;
 
     padding-bottom: 16px;
     width: 611px;
+    border: none;
 
     margin-top: 0;
     margin-bottom: 34px;
