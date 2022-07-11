@@ -9,7 +9,7 @@
     --transparent-white: rgba(255, 255, 255, 0.6);
     --primarly-zone-color: #2f303a;
     --people-background-color: #E5E5E5;
-
+    --heder-border: #ECECEC;
 }
 /* --- */
 html {
@@ -63,6 +63,7 @@ ul {
     padding-bottom: 25px;
 
     background-color: var(--header-background-color);
+    border-bottom: 1px solid var(--heder-border);
 }
 
 .header a {
@@ -207,7 +208,6 @@ ul {
 }
 
 .button-hero {
-
     margin-bottom: 0;
 
     padding: 10px 32px;
@@ -358,15 +358,13 @@ ul {
 
 .porfolio-btn {
     display: flex;
-    margin: auto;
+    margin: avto;
 
     padding-bottom: 16px;
     width: 611px;
-    border: none;
-
+    
     margin-top: 0;
     margin-bottom: 34px;
-
 }
 
 .porfolio-btn button {
@@ -376,6 +374,7 @@ ul {
     min-width: 73px;
     background: var(--secondary-zone-color);
     text-align: center;
+    border: none;
 
     font-weight: 500;
     font-size: 16px;
@@ -385,7 +384,7 @@ ul {
 }
 
 .porfolio-btn .btn-li+.btn-li {
-    margin-left: 7px;
+    margin-left: 8px;
 }
 
 .porfolio-btn button:hover,
