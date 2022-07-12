@@ -59,9 +59,6 @@ ul {
 
 /*header*/
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
-
     background-color: var(--header-background-color);
     border-bottom: 1px solid var(--heder-border);
 }
@@ -209,6 +206,7 @@ ul {
 
 .button-hero {
     margin-bottom: 0;
+    border: none;
 
     padding: 10px 32px;
     min-width: 73px;
@@ -262,9 +260,14 @@ ul {
 }
 
 .picture-ul {
+    display: block;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
 }
-
+.picture-img{
+    display: block;
+}
 .pictures-title {
     margin-bottom: 50px;
 }
@@ -286,7 +289,6 @@ ul {
 
 .people-title {
     margin-bottom: 50px;
-
 }
 
 .people-frame {
@@ -358,13 +360,10 @@ ul {
 
 .porfolio-btn {
     display: flex;
-    margin: avto;
+    justify-content: center;
 
-    padding-bottom: 16px;
-    width: 611px;
-    
     margin-top: 0;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .porfolio-btn button {
@@ -406,14 +405,17 @@ ul {
     display: flex;
     flex-wrap: wrap;
 }
+.work-list a {
+    text-decoration: none;
+}
 
 .work-list li {
     /* box-sizing: border-box;     */
     background: var(--background-color);
-    border-bottom: 1px solid var(--portfolio-border);
+    border: 1px solid var(--portfolio-border);
     /* width: calc((100%-60px)/3);  */
     margin-bottom: 30px;
-    margin-right: 30px;
+    margin-right: 26px;
 }
 
 .partfolio-li:nth-child(3n) {
@@ -429,10 +431,17 @@ ul {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
-}
+    padding: 20px 24px 0px;
+    margin-bottom: 4px;
+}  
 
 .work-text {
+        padding: 0px 24px 20px;
+
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+    
+    color: var(--primary-text-color);
 }
