@@ -299,7 +299,7 @@ ul {
 }
 
 .foto {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .people-name {
@@ -323,8 +323,9 @@ ul {
     background-color: var(--primarly-zone-color);
 }
 
-.footer-address>.logo {
+.logo {
     display: block;
+    text-decoration: none;
     margin-bottom: 20px;
 }
 
